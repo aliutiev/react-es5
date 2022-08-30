@@ -1,0 +1,13 @@
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+Anything wrong with VAR?
+- Easy to accidentally misuse or abuse lol?
+- Block scoping, var can be used outside blocks, const/let are block scoped
+- Resassignments can be accessed outside as long as variables are initialized outside the blocks
+
+Dom Elements https://reactjs.org/docs/dom-elements.html
+Events - https://reactjs.org/docs/events.html
+
+MDN docs, using js
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
